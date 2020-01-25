@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    // syntax highlight
+    "justusadam.language-haskell",
+    // linter
+    "hoovercj.haskell-linter",
+    // language server
+    "alanz.vscode-hie-server",
+    // debugger
+    "phoityne.phoityne-vscode",
+  ]
+}
