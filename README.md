@@ -48,6 +48,7 @@ Install some HIE for lts-14.21(ghc-8.6.5)
 ### Heavily inspired by
 
 - [Setting up Haskell in VS Code with Stack and the IDE Engine](https://medium.com/@dogwith1eyesetting-up-haskell-in-vs-code-with-stack-and-the-ide-engine-81d49eda3ecf)
+- [My Project](https://github.com/dogwith1eye/my-project)
 
 ### Nix things
 
