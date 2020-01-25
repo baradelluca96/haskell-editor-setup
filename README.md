@@ -1,1 +1,1 @@
-# my-project
+# Haskell Editor Setup
