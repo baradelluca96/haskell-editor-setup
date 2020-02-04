@@ -1,3 +1,4 @@
+module Exercise.Chapter03 where
 {-
  - For this exercise, we are dealing with a type for colours of the rainbow
  - The typeclass is defined here, and note its English spelling.

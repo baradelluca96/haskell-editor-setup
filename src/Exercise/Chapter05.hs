@@ -1,3 +1,4 @@
+module Exercise.Chapter05 where
 -- Raise x to the power y, using recursion
 -- For example, power 5 2 = 25
 power :: Int -> Int -> Int

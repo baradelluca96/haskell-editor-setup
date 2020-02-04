@@ -1,3 +1,7 @@
+module Exercise.Chapter09 where
+
+import System.Random (StdGen)
+
 {-
  - Lets implement the UNIX echo command
  - The program arguments are simply printed to the standard output.

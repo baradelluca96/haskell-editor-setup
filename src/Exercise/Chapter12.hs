@@ -1,3 +1,4 @@
+module Exercise.Chapter12 where
 {-
  - Create a type called Validation
  - The type constructor takes one parameter

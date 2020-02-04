@@ -1,3 +1,6 @@
+module Exercise.Chapter13 where
+
+import Control.Monad.Writer (Writer)
 {-
  - We are going to write a binary search algorithm, which returns a Writer, so we can record the intermediate steps.
  -

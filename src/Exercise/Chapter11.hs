@@ -1,3 +1,5 @@
+module Exercise.Chapter11 where
+
 import Control.Applicative
 import Data.Monoid
 
