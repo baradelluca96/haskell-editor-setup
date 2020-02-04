@@ -19,11 +19,18 @@ extra-source-files:
 # common to point users to the README.md file.
 description:         Please see the README on GitHub at <https://github.com/githubuser/my-project#readme>
 
+ghc-options: -Wall
+
 dependencies:
-- base >= 4.7 && < 5
+  - base >= 4.7 && < 5
+  - random
+  - mtl
 
 library:
   source-dirs: src
+  exposed-modules:
+    - Lib
+    - Exercise.Chapter02
 
 executables:
   my-project-exe:
@@ -47,3 +54,4 @@ tests:
     dependencies:
     - my-project
     - hspec
+    build-tools: hspec-discover
