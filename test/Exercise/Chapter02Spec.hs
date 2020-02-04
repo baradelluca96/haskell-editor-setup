@@ -86,9 +86,9 @@ spec = do
 
   describe "splitAtIndex" $ do
     it "with  1 [1]" $ 
-      splitAtIndex 1 [1] `shouldBe` ([1], [])
+      splitAtIndex 1 [1] `shouldBe` ([1], [] :: (Num a) => [a])
     it "with  0 [1]" $ 
-      splitAtIndex 0 [1] `shouldBe` ([], [1])
+      splitAtIndex 0 [1] `shouldBe` ([] :: (Num a) => [a], [1])
     it "with  1 [1, 2]" $ 
       splitAtIndex 1 [1, 2] `shouldBe` ([1], [2])
 
